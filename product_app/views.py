@@ -4,7 +4,7 @@ from .models import *
 
 
 def show_main_page(request):
-    print(5)
+    print(0)
     return render(request, 'product_app/main_page.html')
 
 
