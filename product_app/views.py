@@ -4,12 +4,6 @@ from .models import *
 
 
 def show_main_page(request):
-    """
-    из pull_request
-    проверка pull request
-    :param request:
-    :return:
-    """
     return render(request, 'product_app/main_page.html')
 
 
