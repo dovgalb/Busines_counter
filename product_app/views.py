@@ -5,9 +5,7 @@ from .models import *
 
 def show_main_page(request):
     """
-    Возвращает главную страницу
-    new test
-    комментарий из  mane для pull_request show_main_page
+    из pull_request
     :param request:
     :return:
     """
