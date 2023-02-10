@@ -5,7 +5,8 @@ from .models import *
 
 def show_main_page(request):
     """
-    Тест: печатает '2'
+    Возвращает главную стрницу
+    new test
     :param request:
     :return:
     """
