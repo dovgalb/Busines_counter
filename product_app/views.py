@@ -4,6 +4,11 @@ from .models import *
 
 
 def show_main_page(request):
+    """
+    Тест: печатает '2'
+    :param request:
+    :return:
+    """
     c = 1
     c += 1
     print(c)
