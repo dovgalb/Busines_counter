@@ -16,6 +16,7 @@ def show_main_page(request):
 def show_all_products(request):
     """
     Возвращает страницу со всеми товарами
+    new test
     :param request:
     :return:
     """
