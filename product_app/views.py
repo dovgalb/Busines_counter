@@ -28,6 +28,12 @@ def show_all_products(request):
 
 
 def show_one_product(request, slug_product: str):
+    """
+    Возвращает страницу с одним товаром
+    :param request:
+    :param slug_product:
+    :return:
+    """
     product = get_object_or_404(Product, slug=slug_product)
 
     return render(request, 'product_app/one_product.html', context={
