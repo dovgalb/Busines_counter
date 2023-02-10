@@ -7,6 +7,7 @@ def show_main_page(request):
     """
     Возвращает главную страницу
     new test
+    комментарий из  mane для pull_request show_main_page
     :param request:
     :return:
     """
