@@ -17,8 +17,8 @@ def show_all_products(request):
 
 
 def show_one_product(request, slug_product: str):
-    produc = get_object_or_404(Product, slug=slug_product)
+    product = get_object_or_404(Product, slug=slug_product)
 
     return render(request, 'product_app/one_product.html', context={
-        'product': produc,
+        'product': product,
     })
