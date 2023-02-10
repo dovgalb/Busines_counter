@@ -19,6 +19,7 @@ def show_all_products(request):
     """
     Возвращает страницу со всеми товарами
     new test
+    комментарий из  mane для pull_request show_all_products
     :param request:
     :return:
     """
