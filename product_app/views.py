@@ -33,9 +33,7 @@ def show_all_products(request):
 
 def show_one_product(request, slug_product: str):
     """
-    Возвращает страницу с одним товаром
-    new_test branch
-    комментарий из  mane для pull_request show_one_product
+    из pull_request
     :param request:
     :param slug_product:
     :return:
