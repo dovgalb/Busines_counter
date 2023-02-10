@@ -9,9 +9,7 @@ def show_main_page(request):
     :param request:
     :return:
     """
-    c = 1
-    c += 1
-    print(c)
+
     return render(request, 'product_app/main_page.html')
 
 
