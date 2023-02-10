@@ -6,6 +6,7 @@ from .models import *
 def show_main_page(request):
     """
     из pull_request
+    проверка pull request
     :param request:
     :return:
     """
