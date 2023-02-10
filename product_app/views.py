@@ -14,6 +14,11 @@ def show_main_page(request):
 
 
 def show_all_products(request):
+    """
+    Возвращает страницу со всеми товарами
+    :param request:
+    :return:
+    """
     products = Product.objects.all()
     for product in products:
         product.save()
