@@ -4,9 +4,9 @@ from .models import *
 
 
 def show_main_page(request):
-    c = 2+2+2
-    a = 4
-    print(2+2+c+a)
+    c = 1
+    c += 1
+    print(c)
     return render(request, 'product_app/main_page.html')
 
 
