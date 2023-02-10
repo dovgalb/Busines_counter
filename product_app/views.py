@@ -8,11 +8,6 @@ def show_main_page(request):
 
 
 def show_all_products(request):
-    """
-    из pull_request
-    :param request:
-    :return:
-    """
     products = Product.objects.all()
     for product in products:
         product.save()
