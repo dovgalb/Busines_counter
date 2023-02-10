@@ -9,15 +9,12 @@ def show_main_page(request):
     :param request:
     :return:
     """
-
     return render(request, 'product_app/main_page.html')
 
 
 def show_all_products(request):
     """
-    Возвращает страницу со всеми товарами
-    new test
-    комментарий из  mane для pull_request show_all_products
+    из pull_request
     :param request:
     :return:
     """
