@@ -4,9 +4,12 @@ from .models import *
 
 
 def show_main_page(request):
-    c = 1
-    c += 1
-    print(c)
+    """
+    Тест: печатает '2'
+    :param request:
+    :return:
+    """
+
     return render(request, 'product_app/main_page.html')
 
 
